@@ -1,0 +1,116 @@
+.key, .key_2, .key_3, .key_4, .key_5{
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    background: plum;
+    border: 1px solid black;
+}
+.space{
+    cursor: pointer;
+    width: 370px;
+    height: 50px;
+    background: plum;
+    border: 1px solid black;
+}
+.container{
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+
+.input{
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+}
+
+.key_2:first-child{
+    background-color: darkslateblue;
+    width: 60px;
+}
+.key_2:last-child{
+    background-color: darkslateblue;
+}
+.key_3:first-child{
+    background-color: darkslateblue;
+    width: 120px;
+}
+.key_3:last-child{
+    background-color: darkslateblue;
+    width: 120px;
+}
+.key_4:last-child{
+    background-color: darkslateblue;
+    width: 55px;
+}
+.key_4:first-child{
+    background-color: darkslateblue;
+    width: 120px;
+}
+.key_5:first-child{
+    background-color: darkslateblue;
+    width: 120px;
+}
+
+
+
+
+.row_1{
+    height: 217px;;
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+}
+.row_2{
+    padding: 10px 0px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+}
+.row_3, .row_4, .row_5{
+    padding: 7px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+}
+
+.value{
+    text-align: center;
+}
+
+.key:last-child{
+    background-color: darkslateblue;
+    width: 120px;
+}
+
+.key.active:last-child{
+    background: red;
+}
+.key.active{
+    background: red;
+}
+.key_2.active{
+    background: red;
+}
+.key_3.active{
+    background: red;
+}
+.key_4.active{
+    background: red;
+}
+.key_5.active{
+    background: red;
+}
+.space.active{
+    background: red;
+}
+
+
+
