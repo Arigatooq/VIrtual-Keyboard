@@ -797,6 +797,7 @@ document.addEventListener("keydown", (event) =>{
     value_slash.innerHTML = allButtonsRu[25].toLocaleUpperCase();
     flag = false;
   }
+  localStorage.getItem("words")
 });
 
 
