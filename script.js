@@ -19,8 +19,10 @@ input.addEventListener("keydown", e =>{
   e.preventDefault();
 })
 
-
-
+const changeLanguage = document.createElement("div");
+changeLanguage.classList.add("change");
+changeLanguage.innerHTML = "Для меня языка нажмите Shift + Alt";
+container.prepend(changeLanguage);
 
 
 
@@ -797,10 +799,7 @@ document.addEventListener("keydown", (event) =>{
     value_slash.innerHTML = allButtonsRu[25].toLocaleUpperCase();
     flag = false;
   }
-  localStorage.getItem("words")
 });
-
-
 
 
 
