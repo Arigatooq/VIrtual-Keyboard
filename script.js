@@ -819,7 +819,7 @@ const third = () =>{
   value_caps.innerHTML = "CAPSLOCK";
   caps.append(value_caps);
   document.addEventListener("keydown", (e) =>{
-    if (e.keyCode === 20 ){
+    if (e.keyCode === 20){
       caps.classList.add("active");
     }
   });
@@ -841,7 +841,7 @@ const third = () =>{
     input.value += value_a.innerHTML;
   });
   document.addEventListener("keydown", (e) =>{
-    if (e.code === "KeyA" ){
+    if (e.code === "KeyA"){
       a.classList.add("active");
     }
   });
